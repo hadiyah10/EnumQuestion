@@ -17,31 +17,7 @@ namespace DetermineCategoryByRange
     }
     public class ConsoleProgram
     {
-        /*
-        public Class1()
-        {
-            var xx = GetValue();
-            Console.WriteLine(xx);
-
-            var txt = Console.ReadLine();
-        }
-
-        private static int GetValue()
-        {
-            return 10;
-        }
-
-        public class Employee
-        {
-            public String Name { get; set; }
-
-            public Employee()
-            {
-                Name = "";
-            }
-        }
-        */
-
+        //to display the enum 
         public static void Display()
         {
             int previous = 0;
@@ -85,7 +61,7 @@ namespace DetermineCategoryByRange
                 Console.WriteLine("Your category is: " + userCat);
             }
 
-            while (value != exit);
+            while (value != exit);   
 
         }
 
